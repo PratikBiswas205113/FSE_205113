@@ -1,10 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using NBench;
 using ProjectManager.Controllers;
 
 namespace PerformanceTests
 {
-    [TestClass]
+    [TestFixture]
     public class TaskPerfTests
     {
         [PerfBenchmark(NumberOfIterations = 5, RunMode = RunMode.Throughput,
