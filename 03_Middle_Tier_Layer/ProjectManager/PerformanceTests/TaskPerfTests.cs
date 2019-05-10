@@ -18,6 +18,7 @@ namespace PerformanceTests
             var response = controller.RetrieveProjects();
             // Assert the result  
             Assert.IsTrue(response != null);
+
         }
 
         [PerfBenchmark(NumberOfIterations = 5, RunMode = RunMode.Throughput,
