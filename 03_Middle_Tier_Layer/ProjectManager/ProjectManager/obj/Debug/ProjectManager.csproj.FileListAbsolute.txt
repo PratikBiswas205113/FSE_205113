@@ -204,3 +204,4 @@ C:\FTDB022\FSE_FinalSBA_205113\FSE_205113\03_Middle_Tier_Layer\ProjectManager\Pr
 C:\FTDB022\FSE_FinalSBA_205113\FSE_205113\03_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.WebHost.xml
 C:\FTDB022\FSE_FinalSBA_205113\FSE_205113\03_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.dll
 C:\FTDB022\FSE_FinalSBA_205113\FSE_205113\03_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.pdb
+C:\FTDB022\FSE_FinalSBA_205113\FSE_205113\03_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.csprojResolveAssemblyReference.cache
