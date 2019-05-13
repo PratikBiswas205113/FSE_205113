@@ -54,6 +54,9 @@ namespace ProjectManager.Test
     [TestFixture]
     public class UserControllerTest
     {
+        /// <summary>
+        /// This Unit test methods test User Retrieval
+        /// </summary>
         [Test]
         public void TestGetUser_Success()
         {
