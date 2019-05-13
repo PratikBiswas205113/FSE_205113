@@ -90,7 +90,7 @@ namespace ProjectManager.Test
             Assert.AreEqual((result.Data as List<User>).Count, 2);
         }
 
-        [Test]
+       /* [Test]
         public void TestInsertUser_Success()
         {
             var context = new MockProjectManagerEntities();
@@ -104,7 +104,7 @@ namespace ProjectManager.Test
 
             Assert.IsNotNull(result);
             Assert.AreEqual(result.Data, 1);
-        }
+        }*/
 
         [Test]
         public void TestUpdateUser_Success()

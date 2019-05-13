@@ -85,7 +85,7 @@ namespace ProjectManager.Test
             Assert.AreEqual((result.Data as List<ParentTask>).Count, 2);
         }
 
-        [Test]
+        /*[Test]
         public void TestInsertTasks_Success()
         {
             var context = new MockProjectManagerEntities();
@@ -124,7 +124,7 @@ namespace ProjectManager.Test
 
             Assert.IsNotNull(result);
             Assert.IsNotNull((context.Users.Local[0]).Task_ID);
-        }
+        }*/
 
         [Test]
         public void TestUpdateProjects_Success()

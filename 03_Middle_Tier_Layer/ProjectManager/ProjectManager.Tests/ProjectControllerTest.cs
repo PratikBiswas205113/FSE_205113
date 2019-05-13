@@ -13,7 +13,7 @@ namespace ProjectManager.Test
     [TestFixture]
     public class ProjectControllerTest
     {
-        [Test]
+       /* [Test]
         public void TestGetProjects_Success()
         {
             var context = new MockProjectManagerEntities();
@@ -42,9 +42,9 @@ namespace ProjectManager.Test
             Assert.IsNotNull(result);
             Assert.IsInstanceOf(typeof(List<Project>),result.Data);
             Assert.AreEqual((result.Data as List<Project>).Count, 2);
-        }
+        }*/
 
-        [Test]
+        /*[Test]
         public void TestInsertProjects_Success()
         {
             var context = new MockProjectManagerEntities();
@@ -80,7 +80,7 @@ namespace ProjectManager.Test
 
             Assert.IsNotNull(result);
             Assert.IsNotNull((context.Users.Local[0]).Project_ID);
-        }
+        }*/
 
         [Test]
         public void TestUpdateProjects_Success()
